@@ -8,7 +8,9 @@
     color: rgb(2, 7, 7);
     text-decoration: none;
 }
-
+:root {
+    --brand-color: #2F303A;
+}
 .nav-items {
     list-style-type: none;
 }
@@ -55,6 +57,7 @@
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
+    
 
 }
 
@@ -85,7 +88,7 @@
 
 .main-top {
     text-align: center;
-    background: #2F303A;
+    background: var(--brand-color);
     color: white;
 }
 
@@ -126,7 +129,7 @@ p {
 }
 
 .bottom {
-    background: #2F303A;
+    background: var(--brand-color);
 }
 
 .contact-bottom {
@@ -136,4 +139,13 @@ p {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.945);
+}
+.nav1 {
+    color: white
+}
+
+#link3 {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
 }
