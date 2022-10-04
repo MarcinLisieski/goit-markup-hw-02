@@ -5,13 +5,19 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
   <title>Goit HW1</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap">
-  <link rel="stylesheet" href="/style/style.css">
+  <style>
+    .hidden_h2 {
+  
+      position: aboslute;
+      visibility: hidden;
+      pointer-events: none;
+      opacity: 0;
+    }
+  </style>
 </head>
 
 
@@ -19,26 +25,27 @@
   <header>
     <div>
       <nav>
+        <a href="#">Web Studio</a>
         <ul>
-          <li class="nav_bar">
-            <a href="/index.html" class="nav_item"><span>Web</span>Studio</a>
-          </li>
-          <li class="nav_bar">
-            <a href="/Agencja" class="nav_item1">Agencja</a>
-          </li>
-          <li class="nav_bar">
-            <a href="/portfolio.html" class="nav_item2">Portfolio</a>
-          </li>
-          <li class="nav_bar">
-            <a href="/Kontakt" class="nav_item3">Kontakt</a>
+          <li>
+            <a href="/Agencja">Agencja</a>
           </li>
           <li>
-            <a href="/info@devstudio.com" class="nav_item4">info@devstudio.com</a>
+            <a href="/Portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="/+48111111111" class="nav_item5">+48 111 111 111</a>
+            <a href="/Kontakt">Kontakt</a>
           </li>
         </ul>
+        <nav>
+          <ul>
+            <li>
+              <a href="/info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li>
+              <a href="/+48111111111">+48 111 111 111</a>
+              </li>
+              </ul>
     </div>
   </header>
   <main>
@@ -46,53 +53,55 @@
       <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
       <button>Zamów usługę</button>
     </div>
-    <ul>
-      <li>
-        <h5>LOREM IPSUM</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Nam vel arcu sem. Sed
-          non sodales dui. Interdum et malesuada
-        </p>
-      </li>
-      <li>
-        <h5>LOREM IPSUM</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Nam vel arcu sem. Sed
-          non sodales dui. Interdum et malesuada
-        </p>
-      </li>
-      <li>
-        <h5>LOREM IPSUM</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Nam vel arcu sem. Sed
-          non sodales dui. Interdum et malesuada
-        </p>
-      <li>
-        <h5>LOREM IPSUM</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Nam vel arcu sem. Sed
-          non sodales dui. Interdum et malesuada
-        </p>
-      </li>
-      <li>
-        <h5>LOREM IPSUM</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Nam vel arcu sem. Sed
-          non sodales dui. Interdum et malesuada
-        </p>
-      </li>
-    </ul>
-    <div>
-      <h2>Czym się zajmujemy</h2>
-    </div>
-    <ul>
-      <li><img src="images/img.jpg" width="270" height="260" alt="photo of laptop"></li>
-      <li><img src="images/img1.jpg" width="270" height="260" alt="photo of computer"></li>
-      <li><img src="images/box3.jpg" width="270" height="260" alt="photo of smartphone"></li>
-    </ul>
-
-    <h2>Nasz zespół</h2>
-    <div>
+    <section>
+      <h2 class="hidden_h2"> lorem </h2>
+      <ul>
+        <li>
+          <h3>LOREM IPSUM</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nam vel arcu sem. Sed
+            non sodales dui. Interdum et malesuada
+          </p>
+          </li>
+          <li>
+          <h3>LOREM IPSUM</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nam vel arcu sem. Sed
+            non sodales dui. Interdum et malesuada
+          </p>
+          </li>
+          <li>
+          <h3>LOREM IPSUM</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nam vel arcu sem. Sed
+            non sodales dui. Interdum et malesuada
+          </p>
+          <li>
+          <h3>LOREM IPSUM</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nam vel arcu sem. Sed
+            non sodales dui. Interdum et malesuada
+          </p>
+          </li>
+          <li>
+          <h3>LOREM IPSUM</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nam vel arcu sem. Sed
+            non sodales dui. Interdum et malesuada
+          </p>
+          </li>
+          </ul>
+    </section>
+    <section>
+      <h2>Czym się zajmujemy</h2>
+      <ul>
+        <li><img src="images/img.jpg" width="270" height="260" alt="photo of laptop"></li>
+        <li><img src="images/img1.jpg" width="270" height="260" alt="photo of computer"></li>
+        <li><img src="images/box3.jpg" width="270" height="260" alt="photo of smartphone"></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Nasz zespół</h2>
       <ul>
         <li>
           <figure>
@@ -127,15 +136,15 @@
           </figure>
         </li>
       </ul>
-    </div>
+    </section>
   </main>
   <footer>
-    <h3>Web Studio</h3>
+    <a href="#">Web Studio</a>
     <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-    <p>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a><br>
-      <a href="tel:+48111111111">+48 111 111 111</a>
-    </p>
+    <ul>
+      <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+    </ul>
   </footer>
 
 </body>
