@@ -195,3 +195,6 @@
 .body-studio .body-portfolio {
     background: #E5E5E5;
 }
+.contact-list {
+  list-style: none;
+}
