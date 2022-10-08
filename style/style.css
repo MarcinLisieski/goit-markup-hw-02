@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -43,6 +44,7 @@ footer {
 
 .nav-web {
     color: rgba(33, 150, 243, 1);
+
 }
 
 .nav-item1 {
@@ -56,13 +58,14 @@ footer {
 }
 
 .nav-item2 {
-
+    margin-left: 3%;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
+    justify-content: space-between;
 }
 
 .nav {
@@ -76,7 +79,6 @@ footer {
 }
 
 #link1 {
-
     text-decoration: none;
     list-style-type: none;
     color: black;
@@ -93,6 +95,7 @@ footer {
 }
 
 .contact2 {
+    
     cursor: pointer;
     font-style: normal;
     font-weight: 500;
@@ -110,15 +113,17 @@ footer {
 }
 
 .main-btn {
-    background: #2196F3;
+    background: #F5F4FA;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: none;
-    color: white;
+    color: black;
     cursor: pointer;
     border-radius: 3px;
 
 }
-
+.main-btn:hover {
+    background-color: var(--item-color);
+}
 .btn-hover {
     background-color: var(--item-color);
 }
@@ -144,6 +149,7 @@ footer {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    margin-left: 83px;
 }
 
 .bottom {
@@ -170,10 +176,12 @@ footer {
 }
 
 .buttons button {
-    border-radius: 7px;
-    height: 26px;
+    width: 121px;
+        border-radius: 6px;
+        height: 40px;
     background: #F5F4FA;
     border: none;
+    
 }
 
 .btn-hover:hover {
@@ -182,6 +190,7 @@ footer {
     border-radius: 3px;
     border: none;
     color: rgb(255, 255, 255);
+    
 }
 
 .contact1:hover {
@@ -226,8 +235,42 @@ footer {
 
 .hidden_h2 {
 
-    position: aboslute;
+    
     visibility: hidden;
     pointer-events: none;
     opacity: 0;
+}
+.nav {
+    display: inline;
+}
+
+.nav-bar {
+    padding-left: 13rem;
+}
+
+.contact1 {
+    margin-left: 37px;
+}
+
+.contact2 {
+    margin-left: 20px;
+}
+
+.button {
+    display: inline;
+}
+
+.buttons {
+    padding-left: 23REM;
+    padding-top: 5rem;
+}
+
+.content-text1 {
+    background-color: rgba(255, 255, 255, 1);
+    width: 270px;
+    margin-top: 0 auto;
+}
+
+#link3 {
+    margin-left: 5rem;
 }
