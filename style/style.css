@@ -274,3 +274,6 @@ footer {
 #link3 {
     margin-left: 5rem;
 }
+.lorem-li {
+    list-style: none;
+}
