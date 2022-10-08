@@ -308,5 +308,6 @@ background: var(--brand-color);
 }
 
 .button {
+    cursor: pointer;
     font-family: 'Roboto', sans-serif;
 }
