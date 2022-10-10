@@ -1,366 +1,348 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: 'Roboto',
-        sans-serif;
-    color: var(--font-color)
-    
+  font-family: "Roboto", sans-serif;
+  color: var(--font-color);
 }
 body {
-    font-family: 'Roboto', sans-serif;
-            color: var(--font-color)
-    
+  font-family: "Roboto", sans-serif;
+  color: var(--font-color);
 }
 
 .body-studio .body-portfolio {
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.03em;
-    color: var(--font-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  color: var(--font-color);
 }
 :root {
-    --brand-color: #2F303A;
-    --item-color: #2196F3;
-    --font-color: #212121;
+  --brand-color: #2f303a;
+  --item-color: #2196f3;
+  --font-color: #212121;
 }
 
 .nav-bar {
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: rgb(2, 7, 7);
-    text-decoration: none;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: rgb(2, 7, 7);
+  text-decoration: none;
 }
 
 .nav-items {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .contacts {
-
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.3;
-    letter-spacing: 0.04em;
-    list-style-type: none;
-    margin-left: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  list-style-type: none;
+  margin-left: 20px;
 }
 
 .nav-web {
-    font-family: 'Raleway', sans-serif;
-    color: rgba(33, 150, 243, 1);
-
+  font-family: "Raleway", sans-serif;
+  color: rgba(33, 150, 243, 1);
 }
 
 .nav-item1 {
-
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.3;
-    letter-spacing: 0.02em;
-    color: black;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  color: black;
 }
 
 .nav-item2 {
-    margin-left: 3%;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.3;
-    letter-spacing: 0.02em;
-    color: #212121;
-    justify-content: space-between;
+  margin-left: 3%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  color: #212121;
+  justify-content: space-between;
 }
 
 .nav {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.3;
-    letter-spacing: 0.03em;
-
-
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
 }
 .contact2-bot:hover {
-    color: var(--item-color);
-
+  color: var(--item-color);
 }
 
 .contact1-bot:hover {
-    color: var(--item-color);
+  color: var(--item-color);
 }
 #link1 {
-    text-decoration: none;
-    list-style-type: none;
-    color: black;
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
 }
 
 .contact1 {
-    cursor: pointer;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.3;
-    letter-spacing: 0.02em;
-    color: #757575;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 
 .contact2 {
-    
-    cursor: pointer;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.3;
-    letter-spacing: 0.02em;
-    color: #757575;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 
 .main-top {
-    text-align: center;
-    background: var(--brand-color);
-    color: white;
-    list-style-type: none;
+  text-align: center;
+  background: var(--brand-color);
+  color: white;
+  list-style-type: none;
 }
 
 .main-btn {
-    font-size: 16px;
-        line-height: 1.3;
-        font-weight: 700;
-        font-family: 'Roboto', sans-serif;
-    background: #F5F4FA;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border: none;
-    color: var(--font-color);
-    cursor: pointer;
-    border-radius: 4px;
-
+  font-size: 16px;
+  line-height: 1.3;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  background: var(--item-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
 }
-.main-btn:hover {
-    font-family: 'Roboto', sans-serif;
-    background-color: var(--item-color);
-    color: #FFFFFF;
+.main-bttn:hover {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--item-color);
+  color: #ffffff;
 }
 .btn-hover {
-    cursor: pointer;
-    background-color: var(--item-color);
+  cursor: pointer;
+  background-color: var(--item-color);
 }
 
 .buttons {
-    font-family: 'Roboto', sans-serif;
-    list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  list-style-type: none;
 }
 
 .content-text {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.3;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.3;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .address {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.3;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-    margin-left: 83px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-left: 83px;
 }
 
 .bottom {
-background: var(--brand-color);
+  background: var(--brand-color);
 }
 
 .contact-bottom {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.3;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .nav1 {
-    color: white
+  color: white;
 }
 
 #link3 {
-    font-family: 'Raleway', sans-serif;
-    color: white;
-    text-decoration: none;
-    list-style-type: none;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .buttons button {
-    width: 121px;
-        border-radius: 6px;
-        height: 40px;
-    background: #F5F4FA;
-    border: none;
-    
+  width: 121px;
+  border-radius: 6px;
+  height: 40px;
+  background: #f5f4fa;
+  border: none;
 }
 
 .btn-hover:hover {
-    background-color: var(--item-color);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 3px;
-    border: none;
-    color: rgb(255, 255, 255);
-    
+  background-color: var(--item-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 3px;
+  border: none;
+  color: rgb(255, 255, 255);
 }
 
 .contact1:hover {
-    color: var(--item-color)
+  color: var(--item-color);
 }
 
 .contact2:hover {
-    color: var(--item-color)
+  color: var(--item-color);
 }
 
 .content {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .content-text {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .nav-item2:hover {
-    color: var(--item-color)
+  color: var(--item-color);
 }
 
 .content-studio {
-    background: #F5F4FA;
+  background: #f5f4fa;
 }
 
 .body-studio .body-portfolio {
-    background: #E5E5E5;
+  background: #e5e5e5;
 }
 
 .contact-list {
-    list-style: none;
+  list-style: none;
 }
 
 .contact-bottom {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .font-primary {
-    font-family: Roboto, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .hidden_h2 {
-
-    
-    visibility: hidden;
-    pointer-events: none;
-    opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
 }
 .nav {
-    display: inline;
+  display: inline;
 }
 
 .nav-bar {
-    padding-left: 13rem;
+  padding-left: 13rem;
 }
 
 .contact1 {
-    margin-left: 37px;
+  margin-left: 37px;
 }
 
 .contact2 {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .button {
-    display: inline;
+  display: inline;
 }
 
 .buttons {
-    padding-left: 23REM;
-    padding-top: 5rem;
+  padding-left: 23rem;
+  padding-top: 5rem;
 }
 
 .content-text1 {
-    background-color: rgba(255, 255, 255, 1);
-    width: 270px;
-    margin-top: 0 auto;
+  background-color: rgba(255, 255, 255, 1);
+  width: 270px;
+  margin-top: 0 auto;
 }
 
 #link3 {
-    margin-left: 5rem;
+  margin-left: 5rem;
 }
 .lorem-li {
-    list-style: none;
+  list-style: none;
 }
 .logo {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .lorem-h {
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    Font-size: 14px;
-    line-height: 16px;
-    text-transform: uppercase;
-
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
 }
 
 .button {
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 .contact1-bot {
-    cursor: pointer;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.3;
-    letter-spacing: 0.02em;
-    color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .contact2-bot {
-
-    cursor: pointer;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.3;
-    letter-spacing: 0.02em;
-    color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.6);
 }
 .lorem-p {
-    font-style: normal;
-    font-weight: 400;
-    color: #757575;
-    line-height: 1.8;
-
+  font-style: normal;
+  font-weight: 400;
+  color: #757575;
+  line-height: 1.8;
 }
 
 .conent-fig-cap {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.8;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.8;
 }
 
-.conent-fig-cap-p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.87;
-    color: #757575;
+.content-imgp {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
 }
