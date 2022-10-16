@@ -422,10 +422,10 @@ body {
   
 }
 .container {
-width: 100%;
+  width: 100%;
   margin: 0 auto;
   max-width: 1200px;
-    padding: 0 15px;
+  padding: 0;
 }
 
 .content-box>li {
@@ -446,7 +446,7 @@ width: 100%;
   gap: 0px;
   padding: 0;
   list-style: none;
-  justify-content: center;
+  
   background: rgba(245, 244, 250, 1);
 }
 
@@ -455,7 +455,7 @@ width: 100%;
   flex-basis: calc((100% - 20px) / 4);
 
   background-color: rgba(245, 244, 250, 1);
-  max-width: 270px;
+  
   list-style: none;
   padding: 0;
   
@@ -485,7 +485,7 @@ width: 100%;
 
 
   border: #757575 solid;
-  margin: 0;
+  
 
 }
 
