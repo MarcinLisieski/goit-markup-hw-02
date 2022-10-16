@@ -189,7 +189,7 @@ body {
 
 .bottom {
   background: var(--brand-color);
-  min-height: 294px;
+  min-height: 252px;
     margin: 0 auto;
     padding: 0%;
 
@@ -325,18 +325,6 @@ body {
     justify-content: center;
 }
 
-.content-text1 {
-  background-color: rgba(255, 255, 255, 1);
-  margin-top: 8px;
-    display: block;
-  }
-                                .content-img {
-      margin-top: 4px;
-      border: #757575 solid;
-      margin: 0;
-      padding-top: 5px;
-    }
-
 #link3 {
   margin-left: 5rem;
 }
@@ -419,11 +407,12 @@ body {
   line-height: 1.8;
 }
 
-.content-imgp {
+.team-list-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.3;
   color: #757575;
+  display: block;
 }
 .conent-fig-cap-p {
   font-weight: 400;
@@ -433,9 +422,10 @@ body {
   
 }
 .container {
-  width: 1200px;
+width: 100%;
   margin: 0 auto;
-  padding: 0;
+  max-width: 1200px;
+    padding: 0 15px;
 }
 
 .content-box>li {
@@ -476,4 +466,29 @@ body {
 .header-portfolio {
   max-width: 1200px;
   padding-left: 50px;
+}
+.content-img1 {
+  min-width: 260px;
+  background-color: #FFFFFF;
+  text-align: center;
+  border: #757575 solid;
+}
+
+.content-text1 {
+  padding-top: 10px;
+  background-color: white;
+
+  display: block;
+}
+
+.content-img {
+
+
+  border: #757575 solid;
+  margin: 0;
+
+}
+
+.content-img-text {
+  padding-bottom: 20px;
 }
