@@ -495,3 +495,7 @@ body {
 .content-img-text {
   padding-bottom: 20px;
 }
+.image-port {
+  border: 1px solid #EEEEEE;
+  min-width: 370px;
+}
