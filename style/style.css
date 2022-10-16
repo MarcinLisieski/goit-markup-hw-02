@@ -319,7 +319,10 @@ body {
 }
 
 .buttons {
-  margin-left: 270px;
+  padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .content-text1 {
@@ -327,7 +330,7 @@ body {
   margin-top: 8px;
     display: block;
   }
-    .content-img1 {
+                                .content-img {
       margin-top: 4px;
       border: #757575 solid;
       margin: 0;
