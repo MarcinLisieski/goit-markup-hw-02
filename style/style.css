@@ -315,7 +315,7 @@ body {
 }
 
 .button {
-  display: inline;
+
 }
 
 .buttons {
@@ -323,6 +323,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
+  
 }
 
 #link3 {
@@ -432,8 +433,12 @@ body {
 
 .content-box>li {
   list-style: none;
-  display: inline;
+  display: flex;
   margin-left: 74px;
+  display: inline;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 
 .content-team {
@@ -498,4 +503,9 @@ body {
 .image-port {
   border: 1px solid #EEEEEE;
   min-width: 370px;
+}
+.box-images {
+  max-width: 100%;
+  width: 100%;
+  height: auto
 }
