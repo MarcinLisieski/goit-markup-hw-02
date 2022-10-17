@@ -177,6 +177,7 @@ body {
 .buttons {
   font-family: "Roboto", sans-serif;
   list-style-type: none;
+  gap: 1%;
 }
 
 .content-text {
@@ -328,6 +329,7 @@ body {
 }
 
 .button {
+  padding-top: ;
 
 }
 
@@ -336,6 +338,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
+    margin-left: 10%;
   
 }
 
