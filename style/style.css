@@ -431,15 +431,6 @@ body {
   padding: 0;
 }
 
-.content-box>li {
-  list-style: none;
-  display: flex;
-  margin-left: 74px;
-  display: inline;
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-}
 
 .content-team {
   list-style: none;
@@ -508,4 +499,10 @@ body {
   max-width: 100%;
   width: 100%;
   height: auto
+}
+.content-box {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 30px;
 }
