@@ -520,6 +520,7 @@ body {
 
 .content-img-text {
   padding-bottom: 20px;
+  color: var(--main-silver);
 }
 .image-port {
   border: 1px solid #EEEEEE;
