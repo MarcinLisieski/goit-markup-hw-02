@@ -212,8 +212,7 @@ body {
 .bottom {
   background: var(--brand-color);
   min-height: 252px;
-    margin: 0 auto;
-    padding: 0%;
+    margin-right: 6%;
 
 }
 
