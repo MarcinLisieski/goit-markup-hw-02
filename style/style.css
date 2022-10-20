@@ -39,6 +39,7 @@ body {
   background-color: #FFFFFF;
   color: rgb(2, 7, 7);
   text-decoration: none;
+  margin: 0;
 
 }
 
@@ -327,7 +328,7 @@ body {
 .nav-bar {
   line-height: 80px;
   background-color: #FFFFFF;
-    margin-left: 40px;
+    
     border-bottom: rgba(236, 236, 236, 1) solid;
     
 }
