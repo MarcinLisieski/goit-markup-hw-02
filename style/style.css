@@ -196,6 +196,7 @@ body {
   font-family: "Roboto", sans-serif;
   list-style-type: none;
   gap: 8px;
+  
 }
 
 .content-text {
@@ -582,6 +583,7 @@ margin-right: 100px;
 
 .buttons-portfolio {
   padding-top: 94px;
+  padding-bottom: 34px;
 }
 
 .content-studio {
