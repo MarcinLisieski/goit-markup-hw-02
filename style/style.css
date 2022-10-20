@@ -145,6 +145,7 @@ body {
   color: rgba(255, 255, 255, 1);
   list-style-type: none;
   height: 600px;
+  background-image: url(/images/backgroung-agency.jpg);
 }
 .main-content {
   padding-top: 10%;
