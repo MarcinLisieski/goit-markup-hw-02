@@ -129,16 +129,6 @@ body {
   color: #757575;
 }
 
-.contact22 {
-  cursor: pointer;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.3;
-  letter-spacing: 0.02em;
-  color: #757575;
-  margin: 0;
-}
 .contact2 {
   cursor: pointer;
   font-style: normal;
@@ -153,7 +143,7 @@ body {
   text-align: center;
   background: var(--brand-color);
   color: rgba(255, 255, 255, 1);
-  list-style-type: none;
+  
   height: 600px;
     width: 100%;
       background-image: url(/images/backgroung-agency.jpg);
@@ -234,7 +224,7 @@ body {
 .bottom {
   background: var(--brand-color);
   min-height: 252px;
-    margin-right: %;
+    
 
 }
 
