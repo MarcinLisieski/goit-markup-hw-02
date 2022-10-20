@@ -505,12 +505,13 @@ body {
 
 .content-team {
   display: flex;
-  gap: 43px;
+  gap: 30px;
   padding: 0;
   list-style: none;
   background: rgba(245, 244, 250, 1);
   padding-bottom: 10px;
-    margin: 0 auto;
+  margin: 0 auto;
+  
 }
 
 .content-team-list {
@@ -518,6 +519,7 @@ body {
   background-color: rgba(245, 244, 250, 1);
   list-style: none;
   padding-bottom: 94px;
+  width: 25%;
 }
 
 
