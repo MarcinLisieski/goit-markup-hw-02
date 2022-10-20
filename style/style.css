@@ -188,7 +188,9 @@ body {
   gap: 8px;
   
 }
-
+.section {
+  padding: 94px 0;
+}
 .content-text {
   font-weight: 700;
   font-size: 36px;
@@ -198,7 +200,7 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
   background-color: rgba(245, 244, 250, 1);
-  padding-top: 94px;
+  
 }
 .content-text-box {
   background-color: #FFFFFF;
