@@ -280,7 +280,9 @@ body {
 .content {
   list-style-type: none;
 }
-
+.content-text {
+  padding-top: 94px;
+}
 .content-ul {
 
   display: flex;
@@ -484,6 +486,7 @@ body {
   width: 100%;
   margin: 0 auto;
   max-width: 1200px;
+  
 }
 .content-team {
   list-style: none;
@@ -495,7 +498,7 @@ body {
   padding: 0;
   list-style: none;
   background: rgba(245, 244, 250, 1);
-  padding-bottom: 10px;
+  padding-bottom: 50px;
   margin: 0 auto;
   
 }
