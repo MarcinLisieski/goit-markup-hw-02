@@ -194,7 +194,7 @@ body {
   font-size: 36px;
   line-height: 1.3;
   text-align: center;
-  padding-bottom: 10px;
+  
   letter-spacing: 0.03em;
   color: #212121;
   background-color: rgba(245, 244, 250, 1);
@@ -206,13 +206,10 @@ body {
   display: block;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1;
+  line-height: 1.3;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-top: 88px;
-    padding-bottom: 50px;
-    margin: 0;
 }
 .address {
   font-style: normal;
@@ -394,7 +391,7 @@ body {
   padding: 0;
   list-style: none;
   
-  padding-top: 94px;
+  
   
 }
 .lorem-li {
@@ -487,10 +484,7 @@ body {
   width: 100%;
   margin: 0 auto;
   max-width: 1200px;
-  padding: 0 15px;
-  }
-
-
+}
 .content-team {
   list-style: none;
 }
@@ -498,7 +492,7 @@ body {
 .content-team {
   display: flex;
   gap: 30px;
-  
+  padding: 0;
   list-style: none;
   background: rgba(245, 244, 250, 1);
   padding-bottom: 10px;
@@ -554,7 +548,7 @@ background-color: white;
 .content-box {
   display: flex;
   list-style: none;
-  padding-bottom: 100px;
+  padding: 0;
   gap: 30px;
   
 }
@@ -579,5 +573,5 @@ margin-right: 100px;
 
 .content-studio {
   background-color: rgba(245, 244, 250, 1);
-  padding: 94px 0
+  
 }
