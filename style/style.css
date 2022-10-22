@@ -281,7 +281,7 @@ body {
   list-style-type: none;
 }
 .content-text {
-  padding-top: 94px;
+  padding-bottom: 30px;
 }
 .content-ul {
 
@@ -553,8 +553,9 @@ background-color: white;
 .content-box {
   display: flex;
   list-style: none;
-  padding: 0;
+  padding: 94px 0;
   gap: 30px;
+  margin: 0;
   
 }
 .box-imgs {
@@ -579,4 +580,7 @@ margin-right: 100px;
 .content-studio {
   background-color: rgba(245, 244, 250, 1);
   
+    margin: 0 auto;
+      padding-top: 94px;
+      padding-bottom: 94px;
 }
