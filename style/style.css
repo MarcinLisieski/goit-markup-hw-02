@@ -306,7 +306,9 @@ body {
   list-style: none;
   padding: 0;
 }
-
+.nav-item-agency:hover {
+  color: var(--item-color);
+}
 .nav-item2:hover {
   color: var(--item-color);
 }
@@ -392,6 +394,7 @@ body {
   gap: 30px;
   padding: 0;
   list-style: none;
+  
   
   
   
@@ -488,6 +491,7 @@ body {
     margin: 0 auto;
       padding: 0 15px;
       justify-content: center;
+      padding-top: 94px;
   
 }
 .content-team {
@@ -581,6 +585,6 @@ margin-right: 100px;
   background-color: rgba(245, 244, 250, 1);
   
     margin: 0 auto;
-      padding-top: 94px;
+      
       padding-bottom: 94px;
 }
