@@ -239,7 +239,7 @@ body {
 }
 .footer-content {
   padding-right: 6%;
-  padding-top: 60px;
+  
 }
 .nav1 {
   color: white;
@@ -281,7 +281,7 @@ body {
   list-style-type: none;
 }
 .content-text {
-  padding-bottom: 30px;
+
 }
 .content-ul {
 
@@ -342,6 +342,8 @@ body {
 .nav-bar {
   line-height: 80px;
   background-color: #FFFFFF;
+  display: flex;
+    display: inline;
     
     border-bottom: rgba(236, 236, 236, 1) solid;
     
@@ -394,7 +396,6 @@ body {
   gap: 30px;
   padding: 0;
   list-style: none;
-  
   
   
   
@@ -557,7 +558,7 @@ background-color: white;
 .content-box {
   display: flex;
   list-style: none;
-  padding: 94px 0;
+  padding: 0;
   gap: 30px;
   margin: 0;
   
@@ -565,11 +566,27 @@ background-color: white;
 .box-imgs {
   width: 33.333%;
 }
+.section-box {
+  padding-bottom: 94px;
+}
+
+.container-foot {
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 60px;
+}
 
 .header-portfolio {
   max-width: 1200px;
   width: 100%;
     height: auto;
+    display: flex;
+      justify-content: space-between;
+      padding: 0;
+      margin: 0 auto;
 }
 
 .nav-bottom {
