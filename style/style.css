@@ -395,7 +395,7 @@ body {
   /* Make a flex container multiline */
   flex-wrap: wrap;
   /* Set gap between rows and columns */
-  gap: 30px;
+
   padding: 0;
   list-style: none;
 }
@@ -552,6 +552,7 @@ background-color: white;
   border: 1px solid #EEEEEE;
   min-width: 370px;
   margin-bottom: 15px;
+  gap: 30px;
 }
 .box-images {
   max-width: 100%;
