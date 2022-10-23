@@ -398,10 +398,11 @@ body {
   gap: 30px;
   padding: 0;
   list-style: none;
-  
-  
-  
 }
+  
+  
+
+  
 .lorem-li {
   /*  Set the width of the elements  */
     flex-basis: calc((100% - 20px) / 4);
