@@ -36,6 +36,7 @@ body {
           --project-black: #212121;
           --background-black: #2f303a;
           --primary-white: #fff;
+          --icons-grey: #afb1b8;
 }
 
 .nav-bar {
@@ -569,16 +570,20 @@ background-color: white;
 }
 
 .section-clients-icons {
-
+  fill: var(--icons-grey);
   list-style: none;
   display: flex;
   justify-content: center;
-
+  color: var(--icons-grey);
   gap: 30px;
   padding: 0;
-
+  
 }
-
+ .clients-icons:hover {
+   background-color: var(--primary-white);
+   transition: all 0.3s;
+   fill: var(--item-color)
+ }
 .section-clients-icons>li {
   border: 3px solid #EEEEEE;
   display: flex;
