@@ -694,6 +694,11 @@ footer svg {
   margin-bottom: 15px;
   gap: 30px;
 }
+.image-port:hover {
+  cursor: pointer;
+
+  box-shadow: 1px 1px 5px 1px #838181
+}
 .box-images {
   max-width: 100%;
   width: 100%;
